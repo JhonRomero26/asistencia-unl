@@ -1,0 +1,2 @@
+1. Instalar el driver del navegador que utilizen para que funcione el programa.
+2. Ejecutar el programa.
