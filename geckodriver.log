@@ -186,3 +186,25 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.m
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1620767760033	geckodriver	INFO	Listening on 127.0.0.1:57670
+1620767763094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Romero\\AppData\\Local\\Temp\\rust_mozprofileKlawZu"
+1620767764463	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620767768798	Marionette	INFO	Listening on port 57680
+1620767768949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1620767781667	Marionette	INFO	Stopped listening on port 57680
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620767783100	geckodriver	INFO	Listening on 127.0.0.1:57770
+1620767786175	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Romero\\AppData\\Local\\Temp\\rust_mozprofilec9oCbh"
+1620767786753	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620767790576	Marionette	INFO	Listening on port 57778
+1620767791022	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1620767805455	Marionette	INFO	Stopped listening on port 57778
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

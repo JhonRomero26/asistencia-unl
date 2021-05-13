@@ -68,9 +68,25 @@ class Asistant():
         self.driver.close()
         
 
-if __name__ == '__main__':
-    core = Asistant()
+core = Asistant()
+
+def run(email, passd):
     core.select_browser('firefox')
-    core.open_website('https://google.com')
-    core.login_in_platform('', '')
+    core.open_website(links[0])
+    core.login_in_platform(email, passd)
+    core.open_asistant_page()
+    core.set_asistant()
     core.close_browser()
+
+
+if __name__ == '__main__':
+    user1 = {
+        'email': '',
+        'passwd': '' 
+    }
+    user2 = {
+        'email': '',
+        'passwd': '' 
+    }
+
+    run(user1['email'], user1['passwd'])
